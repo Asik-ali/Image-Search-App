@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 5px;
+}
+
+#searchButton{
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+#imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+#showMoreButton{
+    margin: 20px auto; 
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.show-more:hover {
+    background-color: #0056b3;
+}
+
+.image {
+    margin: 10px;
+    width: 200px;
+    height: auto; 
+}
